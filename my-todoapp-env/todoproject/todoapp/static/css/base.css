@@ -1,0 +1,127 @@
+body {
+        background-color: rgba(0, 217, 255, 0.171);
+        font-family: "M PLUS 1p", sans-serif;
+        padding-top: 55px;
+    }
+
+    .todoAppWrapper {
+        max-width: 530px;
+        margin: 0 auto;
+        background-color: white;
+        box-shadow: 6px 6px 29px -2px #777777;
+        border-radius: 10px;
+    }
+
+    a {
+        color: #595959;
+        text-decoration: none;
+
+    }
+
+    h1 {
+        margin: none;
+    }
+
+    .header {
+        text-align: center;
+        padding: 20px 0;
+        background: #3a84c9;
+        background: linear-gradient(90deg, rgba(58, 132, 201, 1) 0%, rgba(65, 151, 209, 1) 17%, rgba(87, 199, 133, 1) 65%, rgba(237, 221, 83, 1) 96%);
+        border-radius: 10px 10px 0 0;
+        color: white;
+    }
+
+    .taskWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-top: 1px solid #4646466a;
+    }
+
+    .taskTitle {
+        display: flex;
+        align-items: center;
+    }
+
+    .taskCompletedIcon {
+        height: 20px;
+        width: 20px;
+        background-color: lightgreen;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .taskInCompletedIcon {
+        height: 20px;
+        width: 20px;
+        background-color: #595959;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .loginAndLogout {
+        padding: 20px;
+    }
+
+    .loginAndLogout a {
+        color: lightcoral;
+    }
+
+    .editBotton {
+        color: rgb(16, 150, 16);
+    }
+
+    .deleteBotton {
+        color: red;
+    }
+
+    .searchWrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .searchInput {
+        height: 24px;
+        outline: none;
+        border: 1px solid lightseagreen;
+        border-radius: 5px;
+        padding: 2px 4px;
+        width: 160px !important;
+    }
+
+    .searchButton {
+        border: 1px solid lightseagreen;
+        padding: 4px 10px;
+        background-color: #fafafa;
+        color: lightseagreen;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: all 0.4s;
+    }
+
+    .searchButton:hover {
+        background-color: lightseagreen;
+        color: white
+    }
+
+    .addButton {
+        font-size: 32px;
+        color: lightseagreen;
+    }
+
+    label {
+        display: block;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 100%;
+    }
+
+    .accountWrapper {
+        padding: 20px;
+    }
