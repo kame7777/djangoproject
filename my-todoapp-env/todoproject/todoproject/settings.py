@@ -9,7 +9,7 @@ SECRET_KEY = 'django-insecure-*x9wd*llec8j$m6w-ticc*h_zpk%x2tci3=)v!1s7g*v0!=j9v
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -102,4 +102,5 @@ STATICFILES_DIRS = [BASE_DIR / "todoapp" / "static"]
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
